@@ -1,0 +1,96 @@
+html { 
+   width:100%; 
+   height:100%; 
+   background:url(https://www.google.com/images/srpr/logo11w.png) center 190px  no-repeat;
+   background-size: 17em
+}
+
+#top_options {
+	/*font-size: 9pt;*/
+	font-family: sans-serif;
+	position: relative;
+	left: 78%;
+	top: 10px;
+}
+
+#top_options td {
+	width: 40px;
+
+}
+
+#top_options, #footer {
+	font-size: 9pt;
+	color: #666671;
+}
+
+#search_box {
+	/*text-align: center;*/
+	position: relative;
+	left: 28%;
+	top: 260px;
+}
+
+input[type="text"] {
+	height: 20pt;
+
+	border-width: thin;
+	border-radius: none;
+	border-color: #4D90FE;
+}
+
+input[type="submit"] {
+	border: 1px solid;
+	position: relative;
+	top: 15px;
+	height: 22pt;
+	border-color: #D8D8D8;
+	font-size: arial sans-serif;
+	background-color: #F4F4F4;
+}
+
+#gsearch {
+	left: 13%;
+
+}
+
+#lucky {
+	left: 14%;
+
+}
+
+/*Footer bar*/
+
+#footer {
+	position:absolute;
+	background-color: #F2F2F2;
+	bottom: 1px;
+	height: 50px;
+	width: 100%;
+	left: 0%;
+	font-family: sans-serif;
+}
+
+#f_left {
+	margin-left: 20px;
+	position: relative;
+	left: 5px;
+}
+
+#f_data {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#f_right {
+	margin-right: 20px;
+	position: relative;
+	left: 750px;
+
+}
+
+
+#footer td {
+	padding: 7px 15px;
+}
+
